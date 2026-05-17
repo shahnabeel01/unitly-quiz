@@ -1,0 +1,1153 @@
+/* ═══════════════════════════════════════════════════════
+   UNIT WISE — unit-wise.css
+   Uses :root variables from your base styles.css
+   No variables redefined here.
+═══════════════════════════════════════════════════════ */
+
+/* ── Utility ── */
+.uw-hidden {
+  display: none !important;
+}
+
+/* ══════════════════════════════════════════
+   SECTION SHELL
+══════════════════════════════════════════ */
+.uw-section {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-base);
+  position: relative;
+}
+
+/* ══════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════ */
+.uw-sidebar {
+  width: 256px;
+  min-width: 256px;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-shrink: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.uw-sidebar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.uw-sidebar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 99px;
+}
+
+/* Logo */
+.uw-sidebar-logo {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  padding: 22px 18px 18px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.uw-sidebar-logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.uw-logo-text {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+/* Section label */
+.uw-sidebar-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 18px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* Unit list */
+.uw-unit-list {
+  list-style: none;
+  padding: 0 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.uw-unit-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 11px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    border-color var(--transition);
+  user-select: none;
+  outline: none;
+}
+
+.uw-unit-item:hover {
+  background: var(--bg-card);
+  border-color: var(--border);
+}
+
+.uw-unit-item:focus-visible {
+  border-color: var(--blue-primary);
+  background: var(--blue-dim);
+}
+
+/* JS adds this class via loadUnit() */
+.uw-unit-item.is-active {
+  background: var(--blue-dim);
+  border-color: rgba(79, 126, 248, .28);
+}
+
+.uw-unit-item.is-active .uw-unit-name {
+  color: var(--blue-light);
+}
+
+.uw-unit-item.is-active .uw-unit-num {
+  background: var(--blue-primary);
+  color: #fff;
+  border-color: var(--blue-primary);
+}
+
+.uw-unit-item.is-active .uw-unit-arrow {
+  color: var(--blue-light);
+  opacity: 1;
+}
+
+.uw-unit-num {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.uw-unit-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.uw-unit-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  transition: color var(--transition);
+}
+
+.uw-unit-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  display: block;
+}
+
+.uw-unit-arrow {
+  color: var(--text-muted);
+  opacity: 0.4;
+  flex-shrink: 0;
+  transition:
+    color var(--transition),
+    opacity var(--transition);
+}
+
+.uw-unit-item:hover .uw-unit-arrow {
+  opacity: 0.8;
+}
+
+/* Sidebar footer */
+.uw-sidebar-footer {
+  padding: 16px 16px 22px;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.uw-progress-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uw-progress-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uw-progress-label {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* JS: updateOverallProgress() updates this */
+.uw-progress-pct {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--blue-light);
+}
+
+.uw-progress-track {
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+/* JS: updateOverallProgress() sets style.width */
+.uw-progress-fill {
+  height: 100%;
+  background: var(--blue-primary);
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.uw-back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 14px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    border-color var(--transition),
+    color var(--transition),
+    background var(--transition);
+}
+
+.uw-back-btn:hover {
+  border-color: var(--blue-primary);
+  color: var(--blue-light);
+  background: var(--blue-dim2);
+}
+
+/* ══════════════════════════════════════════
+   MAIN AREA
+══════════════════════════════════════════ */
+.uw-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 40px 48px;
+  overflow-y: auto;
+}
+
+/* ══════════════════════════════════════════
+   WELCOME STATE
+   JS: loadUnit() hides this via uw-hidden
+══════════════════════════════════════════ */
+.uw-welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 60px 24px;
+}
+
+.uw-welcome-icon {
+  width: 88px;
+  height: 88px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-primary);
+  flex-shrink: 0;
+  box-shadow: 0 4px 28px rgba(79, 126, 248, .1);
+  margin-bottom: 4px;
+}
+
+.uw-welcome-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -.5px;
+}
+
+.uw-welcome-desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 360px;
+  line-height: 1.7;
+}
+
+/* ══════════════════════════════════════════
+   QUIZ VIEW
+   JS: loadUnit() removes uw-hidden
+══════════════════════════════════════════ */
+.uw-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+/* Quiz header */
+.uw-quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 22px;
+}
+
+.uw-qh-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+/* JS: loadUnit() sets textContent */
+.uw-qh-tag {
+  background: var(--blue-dim);
+  border: 1px solid rgba(79, 126, 248, .22);
+  color: var(--blue-light);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  border-radius: 999px;
+  padding: 4px 13px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* JS: loadUnit() sets textContent from UNIT_DATA[idx].name */
+.uw-qh-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.uw-qh-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* JS: renderQuestion() updates currentQNum span inside */
+.uw-qh-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.uw-qh-sep {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* JS: resetBtn click listener → confirm → loadUnit() */
+.uw-qh-icon-btn {
+  width: 34px;
+  height: 34px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    border-color var(--transition),
+    color var(--transition),
+    background var(--transition);
+}
+
+.uw-qh-icon-btn:hover {
+  border-color: var(--blue-primary);
+  color: var(--blue-light);
+  background: var(--blue-dim2);
+}
+
+/* Progress bar */
+.uw-progress-bar-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.uw-progress-bar-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uw-progress-bar-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.uw-progress-bar-val {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--blue-light);
+}
+
+.uw-linear-track {
+  height: 6px;
+  background: var(--bg-card);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+/* JS: updateProgressBar() sets style.width */
+.uw-linear-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue-primary), var(--blue-light));
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+/* Body layout */
+.uw-body {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+/* ══════════════════════════════════════════
+   QUESTION PANEL
+══════════════════════════════════════════ */
+.uw-q-panel {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.uw-q-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.uw-q-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* JS: renderQuestion() sets textContent */
+.uw-q-num-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  color: var(--blue-primary);
+}
+
+.uw-q-badge {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 11px;
+}
+
+/* JS: renderQuestion() sets textContent from UNIT_DATA question */
+.uw-q-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.65;
+  letter-spacing: -.15px;
+}
+
+/* Options — JS generates all <li> elements */
+.uw-options {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.uw-opt {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition:
+    border-color var(--transition),
+    background var(--transition),
+    transform var(--transition);
+  user-select: none;
+  outline: none;
+}
+
+.uw-opt:hover:not(.is-disabled) {
+  border-color: rgba(79, 126, 248, .42);
+  background: var(--blue-dim2);
+  transform: translateX(4px);
+}
+
+.uw-opt:focus-visible:not(.is-disabled) {
+  border-color: var(--blue-primary);
+}
+
+/* JS: selectOption() adds these classes */
+.uw-opt.is-selected {
+  border-color: var(--blue-primary);
+  background: var(--blue-dim);
+}
+
+.uw-opt.is-correct {
+  border-color: var(--green);
+  background: rgba(52, 200, 122, .09);
+}
+
+.uw-opt.is-wrong {
+  border-color: var(--red);
+  background: rgba(240, 83, 83, .08);
+}
+
+.uw-opt.is-disabled {
+  cursor: default;
+  transform: none;
+}
+
+.uw-opt-key {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 9px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.uw-opt.is-selected .uw-opt-key {
+  background: var(--blue-primary);
+  color: #fff;
+  border-color: var(--blue-primary);
+}
+
+.uw-opt.is-correct .uw-opt-key {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.uw-opt.is-wrong .uw-opt-key {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+}
+
+.uw-opt-val {
+  flex: 1;
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  transition: color var(--transition);
+}
+
+.uw-opt.is-selected .uw-opt-val {
+  color: var(--text-primary);
+}
+
+.uw-opt.is-correct .uw-opt-val {
+  color: var(--green);
+}
+
+.uw-opt.is-wrong .uw-opt-val {
+  color: var(--red);
+}
+
+.uw-opt-dot {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  flex-shrink: 0;
+  transition:
+    background var(--transition),
+    border-color var(--transition);
+}
+
+.uw-opt.is-selected .uw-opt-dot {
+  background: var(--blue-primary);
+  border-color: var(--blue-primary);
+}
+
+.uw-opt.is-correct .uw-opt-dot {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+.uw-opt.is-wrong .uw-opt-dot {
+  background: var(--red);
+  border-color: var(--red);
+}
+
+/* JS: selectOption() removes uw-hidden + adds fb class */
+.uw-feedback {
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.uw-feedback.is-correct-fb {
+  background: rgba(52, 200, 122, .1);
+  border: 1px solid rgba(52, 200, 122, .28);
+  color: var(--green);
+}
+
+.uw-feedback.is-wrong-fb {
+  background: rgba(240, 83, 83, .08);
+  border: 1px solid rgba(240, 83, 83, .25);
+  color: var(--red);
+}
+
+/* Navigation row */
+.uw-nav-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.uw-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-family: var(--font);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 11px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    border-color var(--transition),
+    color var(--transition),
+    background var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.uw-nav-btn:hover:not(:disabled) {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.uw-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* JS: skipBtn click → status = 'skipped' → next Q */
+.uw-nav-skip {
+  margin-left: auto;
+  padding: 11px 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.uw-nav-skip:hover:not(:disabled) {
+  border-color: rgba(245, 166, 35, .38);
+  color: var(--amber);
+  background: rgba(245, 166, 35, .06);
+}
+
+/* JS: nextBtn click → next Q or submitQuiz() on last Q */
+.uw-nav-next {
+  background: var(--blue-primary);
+  border-color: var(--blue-primary);
+  color: #fff;
+  box-shadow: var(--shadow-btn);
+}
+
+.uw-nav-next:hover:not(:disabled) {
+  background: var(--blue-light);
+  border-color: var(--blue-light);
+  box-shadow: 0 6px 22px rgba(79, 126, 248, .38);
+}
+
+/* ══════════════════════════════════════════
+   QUESTION PALETTE
+   JS: buildPalette() generates .uw-pg-btn elements
+       updatePaletteHighlight() adds state classes
+══════════════════════════════════════════ */
+.uw-palette {
+  width: 220px;
+  min-width: 220px; 
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 32px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  flex-shrink: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.uw-palette::-webkit-scrollbar {
+  width: 3px;
+}
+
+.uw-palette::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 99px;
+}
+
+.uw-palette-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.uw-legend {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px 8px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.uw-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.uw-ldot {
+  width: 9px;
+  height: 9px;
+  min-width: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.uw-ldot--current {
+  background: var(--blue-primary);
+}
+
+.uw-ldot--answered {
+  background: var(--green);
+}
+
+.uw-ldot--skipped {
+  background: var(--amber);
+}
+
+.uw-ldot--unseen {
+  background: transparent;
+  border: 1.5px solid var(--border-hover);
+}
+
+/* JS: buildPalette() generates these buttons */
+.uw-palette-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+}
+
+.uw-pg-btn {
+  aspect-ratio: 1;
+  border-radius: 7px;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 11.5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  transition:
+    border-color var(--transition),
+    background var(--transition),
+    color var(--transition),
+    transform var(--transition);
+}
+
+.uw-pg-btn:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+  transform: scale(1.1);
+}
+
+/* JS: updatePaletteHighlight() adds these */
+.uw-pg-btn.is-current {
+  background: var(--blue-primary);
+  border-color: var(--blue-primary);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(79, 126, 248, .38);
+}
+
+.uw-pg-btn.is-answered {
+  background: rgba(52, 200, 122, .14);
+  border-color: rgba(52, 200, 122, .38);
+  color: var(--green);
+}
+
+.uw-pg-btn.is-skipped {
+  background: rgba(245, 166, 35, .1);
+  border-color: rgba(245, 166, 35, .35);
+  color: var(--amber);
+}
+
+/* JS: updateSummary() sets textContent of val spans */
+.uw-palette-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.uw-ps-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uw-ps-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.uw-ps-val {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+/* JS: submitBtn click → submitQuiz() */
+.uw-submit-btn {
+  width: 100%;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  font-family: var(--font);
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(52, 200, 122, .25);
+  transition:
+    background var(--transition),
+    box-shadow var(--transition),
+    transform var(--transition);
+}
+
+.uw-submit-btn:hover {
+  background: #3fd98a;
+  box-shadow: 0 6px 20px rgba(52, 200, 122, .38);
+  transform: translateY(-1px);
+}
+
+/* ══════════════════════════════════════════
+   RESULT SCREEN
+   JS: submitQuiz() removes uw-hidden to show this
+══════════════════════════════════════════ */
+.uw-result {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.uw-result-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+/* JS: submitQuiz() sets textContent based on score tier */
+.uw-result-emoji {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.uw-result-heading {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+  color: var(--text-primary);
+}
+
+.uw-result-sub {
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  margin-top: -10px;
+}
+
+.uw-result-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px 28px;
+  width: 100%;
+}
+
+.uw-rs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* JS: submitQuiz() sets textContent of each */
+.uw-rs-num {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -.5px;
+}
+
+.uw-rs-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.uw-rs-divider {
+  width: 1px;
+  height: 38px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+/* Score ring — JS: submitQuiz() animates stroke-dashoffset */
+.uw-score-ring {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.uw-score-ring svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.uw-ring-bg {
+  fill: none;
+  stroke: var(--bg-surface);
+  stroke-width: 10;
+}
+
+/* JS: submitQuiz() animates this arc */
+.uw-ring-arc {
+  fill: none;
+  stroke: var(--blue-primary);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 65px 65px;
+  transition: stroke-dashoffset 0.9s cubic-bezier(.4, 0, .2, 1);
+}
+
+.uw-ring-text {
+  position: relative;
+  z-index: 1;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -.5px;
+}
+
+.uw-result-actions {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.uw-ra-btn {
+  flex: 1;
+  padding: 13px 20px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  transition:
+    background var(--transition),
+    box-shadow var(--transition),
+    transform var(--transition),
+    border-color var(--transition),
+    color var(--transition);
+}
+
+/* JS: retryBtn → loadUnit(state.activeUnit) */
+.uw-ra-btn--primary {
+  background: var(--blue-primary);
+  color: #fff;
+  box-shadow: var(--shadow-btn);
+}
+
+.uw-ra-btn--primary:hover {
+  background: var(--blue-light);
+  box-shadow: 0 6px 22px rgba(79, 126, 248, .38);
+  transform: translateY(-1px);
+}
+
+/* JS: nextUnitBtn → loadUnit(state.activeUnit + 1) */
+.uw-ra-btn--ghost {
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.uw-ra-btn--ghost:hover {
+  border-color: var(--blue-primary);
+  color: var(--blue-light);
+  background: var(--blue-dim2);
+  transform: translateY(-1px);
+}
