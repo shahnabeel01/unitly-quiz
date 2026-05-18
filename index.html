@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="./assests/Logo_blue.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="./uwStyle.css">
+  <link rel="stylesheet" href="./itStyle.css">
   <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -541,10 +542,319 @@
 
   </section><!-- /#unitWiseSection -->
 
+  <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════
+       Test Section
+  ═══════════════════════════════════════════════ -->
+    <section id="testSection" class="it-section hidden">
+
+        <!-- Quiz Page Container -->
+        <div class="it-page" id="itQuizPage">
+
+            <!-- Sticky Header -->
+            <header class="it-header">
+                <div class="it-header-top">
+
+                    <!-- Left: title -->
+                    <div class="it-header-left">
+                        <div class="it-test-icon" aria-hidden="true">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div>
+                            <span class="it-test-title">Important Questions Test</span>
+                            <span class="it-test-subtitle" id="itTestSubtitle">Loading…</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: controls -->
+                    <div class="it-header-right">
+                        <button class="it-reset-btn" id="itClearBtn" title="Clear saved progress and restart">
+                            🗑️ Reset
+                        </button>
+
+                        <div class="it-timer" id="itTimer">
+                            <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M8 0a8 8 0 100 16A8 8 0 008 0zm.75 4.75v3.5l2.5 1.5a.75.75 0 11-.75 1.3l-2.75-1.65A.75.75 0 017 8.75v-4a.75.75 0 011.5 0z" />
+                            </svg>
+                            <span id="timerDisplay">00:00</span>
+                        </div>
+
+                        <div class="it-q-counter">
+                            Q&nbsp;<span id="itCurrentQNum">1</span>
+                            <span class="it-counter-sep">/</span>
+                            <span id="itTotalQNum">—</span>
+                        </div>
+
+                        <button class="it-submit-btn-top" id="itSubmitTopBtn">Submit Test</button>
+                    </div>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="it-header-progress">
+                    <div class="it-progress-info">
+                        <span class="it-progress-label" id="itProgressLabel">Question 1 of —</span>
+                        <span class="it-progress-pct" id="itProgressPct">0%</span>
+                    </div>
+                    <div class="it-progress-track">
+                        <div class="it-progress-fill" id="itProgressFill" style="width:0%"></div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Status Bar -->
+            <div class="it-status-bar">
+                <div class="it-status-item it-status-item--current">
+                    <span class="it-status-dot"></span>
+                    Current
+                    <span class="it-status-count" id="itStatCurrent">1</span>
+                </div>
+                <div class="it-status-sep"></div>
+                <div class="it-status-item it-status-item--answered">
+                    <span class="it-status-dot"></span>
+                    Answered
+                    <span class="it-status-count" id="itStatAnswered">0</span>
+                </div>
+                <div class="it-status-sep"></div>
+                <div class="it-status-item it-status-item--skipped">
+                    <span class="it-status-dot"></span>
+                    Skipped
+                    <span class="it-status-count" id="itStatSkipped">0</span>
+                </div>
+                <div class="it-status-sep"></div>
+                <div class="it-status-item it-status-item--unseen">
+                    <span class="it-status-dot"></span>
+                    Not Visited
+                    <span class="it-status-count" id="itStatUnseen">—</span>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <main class="it-main">
+                <div class="it-question-wrap">
+
+                    <!-- Question Card -->
+                    <div class="it-q-card">
+                        <div class="it-q-card-top">
+                            <span class="it-q-num" id="itQNum">Question 1</span>
+                            <span class="it-q-tag">MCQ</span>
+                        </div>
+                        <p class="it-q-text" id="itQText">Loading question…</p>
+                        <ul class="it-options" id="itOptionsList"></ul>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="it-nav-row">
+                        <button class="it-nav-btn" id="itPrevBtn" disabled>
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M9.78 12.78a.75.75 0 01-1.06 0L4.47 8.53a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L6.06 8l3.72 3.72a.75.75 0 010 1.06z" />
+                            </svg>
+                            Previous
+                        </button>
+                        <button class="it-nav-btn it-nav-skip" id="itSkipBtn">Skip</button>
+                        <button class="it-nav-btn it-nav-next" id="itNextBtn">
+                            Next
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M6.22 12.78a.75.75 0 001.06 0l4.25-4.25a.75.75 0 000-1.06L7.28 3.22a.75.75 0 00-1.06 1.06L9.94 8 6.22 11.72a.75.75 0 000 1.06z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Question Palette -->
+                    <div class="it-palette-wrap">
+                        <div class="it-palette-top">
+                            <h3 class="it-palette-title">Question Palette</h3>
+                            <span class="it-palette-hint">Click any number to jump</span>
+                        </div>
+                        <div class="it-palette-grid" id="itPaletteGrid"></div>
+                    </div>
+
+                </div>
+            </main>
+
+        </div>
+
+        <!-- Result Page Container -->
+        <div class="it-result it-hidden" id="itResultPage">
+
+            <!-- Header -->
+            <div class="it-result-header">
+                <span class="it-result-emoji" id="itResEmoji">🎯</span>
+                <h1 class="it-result-title" id="itResTitle">Test Complete!</h1>
+                <p class="it-result-sub" id="itResSub">Here is your detailed performance summary</p>
+            </div>
+
+            <!-- Score Ring -->
+            <div class="it-score-ring">
+                <svg viewBox="0 0 140 140" width="140" height="140">
+                    <circle cx="70" cy="70" r="58" class="it-ring-bg" />
+                    <circle cx="70" cy="70" r="58" class="it-ring-arc" id="itResRingArc" stroke-dasharray="364"
+                        stroke-dashoffset="364" />
+                </svg>
+                <div class="it-ring-inner">
+                    <span class="it-ring-pct" id="itResRingPct">0%</span>
+                    <span class="it-ring-lbl">Score</span>
+                </div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="it-result-stats">
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--green">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <span class="it-result-stat-num" id="itResCorrect">0</span>
+                    <span class="it-result-stat-lbl">Correct</span>
+                </div>
+
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--red">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8 1a7 7 0 100 14A7 7 0 008 1zm2.78 4.22a.75.75 0 010 1.06L9.06 8l1.72 1.72a.75.75 0 11-1.06 1.06L8 9.06 6.28 10.78a.75.75 0 01-1.06-1.06L6.94 8 5.22 6.28a.75.75 0 011.06-1.06L8 6.94l1.72-1.72a.75.75 0 011.06 0z" />
+                        </svg>
+                    </div>
+                    <span class="it-result-stat-num" id="itResWrong">0</span>
+                    <span class="it-result-stat-lbl">Wrong</span>
+                </div>
+
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--amber">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8 0a8 8 0 100 16A8 8 0 008 0zm.75 4.75v3.5l2.5 1.5a.75.75 0 11-.75 1.3l-2.75-1.65A.75.75 0 017 8.75v-4a.75.75 0 011.5 0z" />
+                        </svg>
+                    </div>
+                    <span class="it-result-stat-num" id="itResSkipped">0</span>
+                    <span class="it-result-stat-lbl">Skipped</span>
+                </div>
+
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--muted">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8 1a7 7 0 100 14A7 7 0 008 1zm.75 3.75v3.5a.75.75 0 01-1.5 0v-3.5a.75.75 0 011.5 0zM8 10a1 1 0 110 2 1 1 0 010-2z" />
+                        </svg>
+                    </div>
+                    <span class="it-result-stat-num" id="itResUnseen">0</span>
+                    <span class="it-result-stat-lbl">Not Visited</span>
+                </div>
+
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--blue">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <span class="it-result-stat-num" id="itResScore">0%</span>
+                    <span class="it-result-stat-lbl">Accuracy</span>
+                </div>
+
+                <div class="it-result-stat">
+                    <div class="it-result-stat-icon it-stat-icon--purple">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8 0a8 8 0 100 16A8 8 0 008 0zm.75 4.75v3.5l2.5 1.5a.75.75 0 11-.75 1.3l-2.75-1.65A.75.75 0 017 8.75v-4a.75.75 0 011.5 0z" />
+                        </svg>
+                    </div>
+                    <span class="it-result-stat-num" id="itResTime">0:00</span>
+                    <span class="it-result-stat-lbl">Time Taken</span>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="it-result-actions">
+                <button class="it-result-btn it-result-btn--primary" id="itRetryBtn">
+                    Retry Full Test
+                </button>
+                <button class="it-result-btn it-result-btn--amber" id="itRetryWrongBtn">
+                    Retry Wrong Questions
+                </button>
+                <button class="it-result-btn it-result-btn--ghost" id="itHomeBtn">
+                    ← Back to Home
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Submit Modal -->
+        <div class="it-modal-backdrop it-hidden" id="itModalBackdrop">
+            <div class="it-modal">
+                <div class="it-modal-header">
+                    <div class="it-modal-icon">
+                        <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8.982 1.566a1.13 1.13 0 00-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 01-1.1 0L7.1 5.995A.905.905 0 018 5zm.002 6a1 1 0 110 2 1 1 0 010-2z" />
+                        </svg>
+                    </div>
+                    <h2 class="it-modal-title">Submit Test?</h2>
+                    <button class="it-modal-close" id="itModalClose">
+                        <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="it-modal-stats">
+                    <div class="it-modal-stat">
+                        <span class="it-modal-stat-num is-green" id="itModalAnswered">0</span>
+                        <span class="it-modal-stat-lbl">Answered</span>
+                    </div>
+                    <div class="it-modal-stat">
+                        <span class="it-modal-stat-num is-amber" id="itModalSkipped">0</span>
+                        <span class="it-modal-stat-lbl">Skipped</span>
+                    </div>
+                    <div class="it-modal-stat">
+                        <span class="it-modal-stat-num is-muted" id="itModalUnseen">0</span>
+                        <span class="it-modal-stat-lbl">Not Visited</span>
+                    </div>
+                </div>
+
+                <p class="it-modal-note">
+                    Once submitted you cannot change your answers.
+                    Make sure you have reviewed all questions before confirming.
+                </p>
+
+                <div class="it-modal-actions">
+                    <button class="it-modal-btn it-modal-btn--cancel" id="itModalCancel">
+                        Review Answers
+                    </button>
+                    <button class="it-modal-btn it-modal-btn--confirm" id="itModalConfirm">
+                        Confirm Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
   <!-- Scripts (JS Files) -->
   <script src="./unitwiseQuestions.js"></script>
   <script src="./uwScript1.js"></script>
   <script src="./main.js"></script>
+  <script src="./testQuestions.js"></script>
+  <script src="./testScript.js"></script>
 
 </body>
 
