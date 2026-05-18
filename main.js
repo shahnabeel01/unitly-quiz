@@ -1,7 +1,7 @@
 // Show/Hide All Sections
 // Show
 function showSection(id) {
-    document.querySelectorAll("section").forEach(section =>{
+    document.querySelectorAll("section").forEach(section => {
         section.classList.add("hidden");
         document.getElementById("footer").classList.add("hidden");
         document.getElementById("navBar").classList.add("hidden");
@@ -12,7 +12,7 @@ function showSection(id) {
 
 // Hide
 function hideSection(id) {
-    document.querySelectorAll("section").forEach(section =>{
+    document.querySelectorAll("section").forEach(section => {
         section.classList.remove("hidden");
         document.getElementById("footer").classList.remove("hidden");
         document.getElementById("navBar").classList.remove("hidden");
@@ -24,13 +24,13 @@ function hideSection(id) {
 // Show Unit-Wise Practice Section
 // Buttons
 unitsBtn = document.querySelector("#unitBtn");
-unitsBtn.addEventListener("click", (e)=>{
+unitsBtn.addEventListener("click", (e) => {
     showSection("unitWiseSection");
     document.title = "Unitly - Unit Wise Practice"
 })
 // backButton
 unitsBackBtn = document.querySelector("#backToHome");
-unitsBackBtn.addEventListener("click", (e)=>{
+unitsBackBtn.addEventListener("click", (e) => {
     hideSection("unitWiseSection");
     // document.title = "Unitly"
     window.location.reload();
@@ -40,13 +40,15 @@ unitsBackBtn.addEventListener("click", (e)=>{
 // Show Test Interface
 // SectionBTn
 testBtn = document.querySelector("#testBtn");
-testBtn.addEventListener("click", (e)=>{
-   alert("Thank you for your interest! This feature is currently under construction and will be available in a future update.")
+testBtn.addEventListener("click", (e) => {
+    showSection("testSection");
+    document.title = "Unitly - Questions Test"
 })
 
 // BackBtn
-// testBackBtn = document.querySelector("#itHomeBtn");
+testBackBtn = document.querySelector("#itHomeBtn");
 
-// testBackBtn.addEventListener("click", (e)=>{
-//     hideSection("itPage");
-// })
+testBackBtn.addEventListener("click", (e) => {
+    hideSection("testSection");
+    window.location.reload();
+})
