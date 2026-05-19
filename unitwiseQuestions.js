@@ -1,12 +1,12 @@
 const unitQuestions = [
 
   // =========================================================
-  // UNIT 1 – ENVIRONMENT AND CLIMATE CHANGE
+  // Unit 1 – ENVIRONMENT AND CLIMATE CHANGE
   // =========================================================
 
   {
     id: 1,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The term \"Environment\" is derived from the French word \"Environner\" which means:",
 
@@ -22,7 +22,7 @@ const unitQuestions = [
 
   {
     id: 2,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Something that environs\" is…",
 
@@ -38,7 +38,7 @@ const unitQuestions = [
 
   {
     id: 3,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following best defines \"Environment\"?",
 
@@ -54,7 +54,7 @@ const unitQuestions = [
 
   {
     id: 4,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The two main components of the environment are:",
 
@@ -70,7 +70,7 @@ const unitQuestions = [
 
   {
     id: 5,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is an example of an Abiotic component?",
 
@@ -86,7 +86,7 @@ const unitQuestions = [
 
   {
     id: 6,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is an example of a Biotic component?",
 
@@ -102,7 +102,7 @@ const unitQuestions = [
 
   {
     id: 7,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "In environment, the term Fauna stands for…",
 
@@ -118,7 +118,7 @@ const unitQuestions = [
 
   {
     id: 8,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Lithosphere refers to:",
 
@@ -134,7 +134,7 @@ const unitQuestions = [
 
   {
     id: 9,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Hydrosphere refers to:",
 
@@ -150,7 +150,7 @@ const unitQuestions = [
 
   {
     id: 10,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The atmosphere is held to the earth by:",
 
@@ -166,7 +166,7 @@ const unitQuestions = [
 
   {
     id: 11,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which layer of the atmosphere contains the ozone layer responsible for absorbing UV light?",
 
@@ -182,7 +182,7 @@ const unitQuestions = [
 
   {
     id: 12,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Biosphere is defined as:",
 
@@ -198,7 +198,7 @@ const unitQuestions = [
 
   {
     id: 13,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Anthropogenic\" environment refers to:",
 
@@ -214,7 +214,7 @@ const unitQuestions = [
 
   {
     id: 14,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is an example of a Man-made or Artificial Environment?",
 
@@ -230,7 +230,7 @@ const unitQuestions = [
 
   {
     id: 15,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The atmosphere contains ……% of oxygen gas.",
 
@@ -246,7 +246,7 @@ const unitQuestions = [
 
   {
     id: 16,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Biotic component of biosphere is NOT constituted by:",
 
@@ -262,7 +262,7 @@ const unitQuestions = [
 
   {
     id: 17,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Physical environment is also known as:",
 
@@ -278,7 +278,7 @@ const unitQuestions = [
 
   {
     id: 18,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Global Warming\" refers to:",
 
@@ -294,7 +294,7 @@ const unitQuestions = [
 
   {
     id: 19,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The primary Greenhouse Gas (GHG) responsible for Global Warming is:",
 
@@ -310,7 +310,7 @@ const unitQuestions = [
 
   {
     id: 20,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is NOT a greenhouse gas?",
 
@@ -326,7 +326,7 @@ const unitQuestions = [
 
   {
     id: 21,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Green House effect refers to…",
 
@@ -342,7 +342,7 @@ const unitQuestions = [
 
   {
     id: 22,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The main Green House gas _____ is absorbed by forests as raw material for photosynthesis.",
 
@@ -358,7 +358,7 @@ const unitQuestions = [
 
   {
     id: 23,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The combustion of coal and oil is a major source of which greenhouse gas?",
 
@@ -374,7 +374,7 @@ const unitQuestions = [
 
   {
     id: 24,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "An increase in carbon dioxide content in the atmosphere would NOT cause…",
 
@@ -390,7 +390,7 @@ const unitQuestions = [
 
   {
     id: 25,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Acid Rain\" is primarily caused by emissions of:",
 
@@ -406,7 +406,7 @@ const unitQuestions = [
 
   {
     id: 26,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The pH of Acid Rain water is…",
 
@@ -422,7 +422,7 @@ const unitQuestions = [
 
   {
     id: 27,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Due to acid rain, how does the pH of soil get affected?",
 
@@ -438,7 +438,7 @@ const unitQuestions = [
 
   {
     id: 28,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "When Sulfur Dioxide reacts with water vapor in the atmosphere, it forms:",
 
@@ -454,7 +454,7 @@ const unitQuestions = [
 
   {
     id: 29,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "A damaging effect of Acid Rain is:",
 
@@ -470,7 +470,7 @@ const unitQuestions = [
 
   {
     id: 30,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The Ozone Layer protects life on Earth from:",
 
@@ -486,7 +486,7 @@ const unitQuestions = [
 
   {
     id: 31,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The depletion of the Ozone layer is mainly caused by:",
 
@@ -502,7 +502,7 @@ const unitQuestions = [
 
   {
     id: 32,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which among the following plays the most important role in ozone depletion?",
 
@@ -518,7 +518,7 @@ const unitQuestions = [
 
   {
     id: 33,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Where is the \"Ozone Hole\" most prominent?",
 
@@ -534,7 +534,7 @@ const unitQuestions = [
 
   {
     id: 34,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which international protocol was signed to phase out ozone-depleting substances?",
 
@@ -550,7 +550,7 @@ const unitQuestions = [
 
   {
     id: 35,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The environmental cause of increase in skin cancer, cataract and mutation is due to…",
 
@@ -566,7 +566,7 @@ const unitQuestions = [
 
   {
     id: 36,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which international agreement aims to reduce global warming?",
 
@@ -582,7 +582,7 @@ const unitQuestions = [
 
   {
     id: 37,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Ozone gets ruptured by reaction of NOx with…",
 
@@ -598,7 +598,7 @@ const unitQuestions = [
 
   {
     id: 38,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The Chernobyl disaster (1986) and Fukushima disaster (2011) are examples of:",
 
@@ -614,7 +614,7 @@ const unitQuestions = [
 
   {
     id: 39,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Rapid population growth contributes to environmental degradation by:",
 
@@ -630,7 +630,7 @@ const unitQuestions = [
 
   {
     id: 40,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Smog\" is a combination of:",
 
@@ -646,7 +646,7 @@ const unitQuestions = [
 
   {
     id: 41,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "What does the \"5R\" principle stand for in waste management?",
 
@@ -662,7 +662,7 @@ const unitQuestions = [
 
   {
     id: 42,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "In the 5R hierarchy, which action is considered the most preferred / effective?",
 
@@ -678,7 +678,7 @@ const unitQuestions = [
 
   {
     id: 43,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Reuse\" means:",
 
@@ -694,7 +694,7 @@ const unitQuestions = [
 
   {
     id: 44,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Recycle\" involves:",
 
@@ -710,7 +710,7 @@ const unitQuestions = [
 
   {
     id: 45,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Segregation of waste means:",
 
@@ -726,7 +726,7 @@ const unitQuestions = [
 
   {
     id: 46,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Domestic waste is usually segregated into:",
 
@@ -742,7 +742,7 @@ const unitQuestions = [
 
   {
     id: 47,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Composting is a method to manage:",
 
@@ -758,7 +758,7 @@ const unitQuestions = [
 
   {
     id: 48,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Vermicomposting uses which organism to break down waste?",
 
@@ -774,7 +774,7 @@ const unitQuestions = [
 
   {
     id: 49,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following wastes CANNOT be decomposed by bacteria to form compost?",
 
@@ -790,7 +790,7 @@ const unitQuestions = [
 
   {
     id: 50,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is bad for the environment?",
 
@@ -806,7 +806,7 @@ const unitQuestions = [
 
   {
     id: 51,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "E-waste refers to:",
 
@@ -822,7 +822,7 @@ const unitQuestions = [
 
   {
     id: 52,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following statements is true about zero waste management?",
 
@@ -838,7 +838,7 @@ const unitQuestions = [
 
   {
     id: 53,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Sustainable Development\" is defined as:",
 
@@ -854,7 +854,7 @@ const unitQuestions = [
 
   {
     id: 54,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Who popularized the definition of Sustainable Development in the \"Our Common Future\" report (1987)?",
 
@@ -870,7 +870,7 @@ const unitQuestions = [
 
   {
     id: 55,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The equitable use of resources is necessary for…",
 
@@ -886,7 +886,7 @@ const unitQuestions = [
 
   {
     id: 56,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "How many Sustainable Development Goals (SDGs) were adopted by the United Nations?",
 
@@ -902,7 +902,7 @@ const unitQuestions = [
 
   {
     id: 57,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The SDGs are intended to be achieved by the year:",
 
@@ -918,7 +918,7 @@ const unitQuestions = [
 
   {
     id: 58,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is SDG Goal 13?",
 
@@ -934,7 +934,7 @@ const unitQuestions = [
 
   {
     id: 59,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The three pillars of sustainability are:",
 
@@ -950,7 +950,7 @@ const unitQuestions = [
 
   {
     id: 60,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The Paris Agreement (2015) aims to limit global temperature rise to well below:",
 
@@ -966,7 +966,7 @@ const unitQuestions = [
 
   {
     id: 61,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Carbon Footprint\" is defined as:",
 
@@ -982,7 +982,7 @@ const unitQuestions = [
 
   {
     id: 62,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The carbon footprint measures…",
 
@@ -998,7 +998,7 @@ const unitQuestions = [
 
   {
     id: 63,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Zero Carbon Footprint\" or \"Net Zero\" means:",
 
@@ -1014,7 +1014,7 @@ const unitQuestions = [
 
   {
     id: 64,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "One Carbon Credit is equivalent to:",
 
@@ -1030,7 +1030,7 @@ const unitQuestions = [
 
   {
     id: 65,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "How can individuals reduce their carbon footprint related to transportation?",
 
@@ -1046,7 +1046,7 @@ const unitQuestions = [
 
   {
     id: 66,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "If a company wants to reduce its carbon footprint, what should it do?",
 
@@ -1062,7 +1062,7 @@ const unitQuestions = [
 
   {
     id: 67,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The concept of \"Panchmahabhuta\" in ancient Indian philosophy refers to:",
 
@@ -1078,7 +1078,7 @@ const unitQuestions = [
 
   {
     id: 68,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Vasudhaiva Kutumbakam\" means:",
 
@@ -1094,7 +1094,7 @@ const unitQuestions = [
 
   {
     id: 69,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Carbon Sequestration means:",
 
@@ -1110,7 +1110,7 @@ const unitQuestions = [
 
   {
     id: 70,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which date is celebrated as \"World Environment Day\"?",
 
@@ -1126,7 +1126,7 @@ const unitQuestions = [
 
   {
     id: 71,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The \"Kyoto Protocol\" (1997) was an international treaty to:",
 
@@ -1142,7 +1142,7 @@ const unitQuestions = [
 
   {
     id: 72,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Biomagnification refers to:",
 
@@ -1158,7 +1158,7 @@ const unitQuestions = [
 
   {
     id: 73,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which Indian state became the first fully \"Organic State\"?",
 
@@ -1174,7 +1174,7 @@ const unitQuestions = [
 
   {
     id: 74,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The \"Chipko Movement\" was related to:",
 
@@ -1190,7 +1190,7 @@ const unitQuestions = [
 
   {
     id: 75,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which of the following is a \"Carbon Sink\"?",
 
@@ -1206,7 +1206,7 @@ const unitQuestions = [
 
   {
     id: 76,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "The \"Earth Summit\" (1992) was held in:",
 
@@ -1222,7 +1222,7 @@ const unitQuestions = [
 
   {
     id: 77,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Gas released by ruminant animals (like cows) that contributes to global warming:",
 
@@ -1238,7 +1238,7 @@ const unitQuestions = [
 
   {
     id: 78,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Greenwashing\" is:",
 
@@ -1254,7 +1254,7 @@ const unitQuestions = [
 
   {
     id: 79,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "\"Upcycling\" is different from recycling because:",
 
@@ -1270,7 +1270,7 @@ const unitQuestions = [
 
   {
     id: 80,
-    unit: "Unit 1",
+    unit: "Environment and Climate Change",
 
     question: "Which gas is known as the \"Silent Killer\"?",
 
@@ -1285,12 +1285,12 @@ const unitQuestions = [
   },
 
   // =========================================================
-  // UNIT 2 – SUSTAINABILITY AND RENEWABLE RESOURCES
+  // Unit 2 – SUSTAINABILITY AND RENEWABLE RESOURCES
   // =========================================================
 
   {
     id: 81,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Natural resources are defined as:",
 
@@ -1306,7 +1306,7 @@ const unitQuestions = [
 
   {
     id: 82,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is a \"Renewable\" natural resource?",
 
@@ -1322,7 +1322,7 @@ const unitQuestions = [
 
   {
     id: 83,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is a \"Non-Renewable\" natural resource?",
 
@@ -1338,7 +1338,7 @@ const unitQuestions = [
 
   {
     id: 84,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Minerals, rocks, salt and chemicals are termed as…",
 
@@ -1354,7 +1354,7 @@ const unitQuestions = [
 
   {
     id: 85,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "On Earth, only about ___% of the total water is freshwater.",
 
@@ -1370,7 +1370,7 @@ const unitQuestions = [
 
   {
     id: 86,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is a major consequence of deforestation?",
 
@@ -1386,7 +1386,7 @@ const unitQuestions = [
 
   {
     id: 87,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is NOT a reason for forest loss?",
 
@@ -1402,7 +1402,7 @@ const unitQuestions = [
 
   {
     id: 88,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Forests prevent soil erosion by binding soil particles by their…",
 
@@ -1418,7 +1418,7 @@ const unitQuestions = [
 
   {
     id: 89,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "The trees are called as, Earth's…",
 
@@ -1434,7 +1434,7 @@ const unitQuestions = [
 
   {
     id: 90,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Floods can be prevented by…",
 
@@ -1450,7 +1450,7 @@ const unitQuestions = [
 
   {
     id: 91,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following forest types is most threatened by human activity?",
 
@@ -1466,7 +1466,7 @@ const unitQuestions = [
 
   {
     id: 92,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "The lowering of the water table is primarily caused by:",
 
@@ -1482,7 +1482,7 @@ const unitQuestions = [
 
   {
     id: 93,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Desertification\" refers to:",
 
@@ -1498,7 +1498,7 @@ const unitQuestions = [
 
   {
     id: 94,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Sustainable Forest Management\" aims to:",
 
@@ -1514,7 +1514,7 @@ const unitQuestions = [
 
   {
     id: 95,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "When 'need' turns to 'greed' it starts…",
 
@@ -1530,7 +1530,7 @@ const unitQuestions = [
 
   {
     id: 96,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Overexploitation\" of resources means:",
 
@@ -1546,7 +1546,7 @@ const unitQuestions = [
 
   {
     id: 97,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Preventing overexploitation of non-renewable natural resources is a key aspect of…",
 
@@ -1562,7 +1562,7 @@ const unitQuestions = [
 
   {
     id: 98,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Ecological Footprint\" measures:",
 
@@ -1578,7 +1578,7 @@ const unitQuestions = [
 
   {
     id: 99,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which is a method to conserve water in agriculture?",
 
@@ -1594,7 +1594,7 @@ const unitQuestions = [
 
   {
     id: 100,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Carrying Capacity\" of an environment is:",
 
@@ -1610,7 +1610,7 @@ const unitQuestions = [
 
   {
     id: 101,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "How can we reduce our need for fossil fuels?",
 
@@ -1626,7 +1626,7 @@ const unitQuestions = [
 
   {
     id: 102,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Energy resources that cannot be replenished in a short period are called:",
 
@@ -1642,7 +1642,7 @@ const unitQuestions = [
 
   {
     id: 103,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Fossil fuels are…",
 
@@ -1658,7 +1658,7 @@ const unitQuestions = [
 
   {
     id: 104,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is an example of a non-renewable resource in an ecosystem?",
 
@@ -1674,7 +1674,7 @@ const unitQuestions = [
 
   {
     id: 105,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Nuclear power plants use _____ as fuel.",
 
@@ -1690,7 +1690,7 @@ const unitQuestions = [
 
   {
     id: 106,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "What phenomenon is used in nuclear power plants to produce electricity currently?",
 
@@ -1706,7 +1706,7 @@ const unitQuestions = [
 
   {
     id: 107,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Solar Energy is harnessed using:",
 
@@ -1722,7 +1722,7 @@ const unitQuestions = [
 
   {
     id: 108,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Wind Energy converts ______ energy into electrical energy.",
 
@@ -1738,7 +1738,7 @@ const unitQuestions = [
 
   {
     id: 109,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Hydropower plants generate electricity using:",
 
@@ -1754,7 +1754,7 @@ const unitQuestions = [
 
   {
     id: 110,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "_____ produces a number of benefits, such as flood control, irrigation, and water supply.",
 
@@ -1770,7 +1770,7 @@ const unitQuestions = [
 
   {
     id: 111,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which one is NOT a disadvantage of a big dam?",
 
@@ -1786,7 +1786,7 @@ const unitQuestions = [
 
   {
     id: 112,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Geothermal energy is clean and efficient because…",
 
@@ -1802,7 +1802,7 @@ const unitQuestions = [
 
   {
     id: 113,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Geothermal Energy\" is derived from:",
 
@@ -1818,7 +1818,7 @@ const unitQuestions = [
 
   {
     id: 114,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Biomass energy is obtained from:",
 
@@ -1834,7 +1834,7 @@ const unitQuestions = [
 
   {
     id: 115,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which microorganism is commonly used in the anaerobic digestion of biomass?",
 
@@ -1850,7 +1850,7 @@ const unitQuestions = [
 
   {
     id: 116,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Biogas\" is primarily composed of:",
 
@@ -1866,7 +1866,7 @@ const unitQuestions = [
 
   {
     id: 117,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "___ is the major raw material for biogas.",
 
@@ -1882,7 +1882,7 @@ const unitQuestions = [
 
   {
     id: 118,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following can be classified under solid biomass?",
 
@@ -1898,7 +1898,7 @@ const unitQuestions = [
 
   {
     id: 119,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is an example of a biofuel?",
 
@@ -1914,7 +1914,7 @@ const unitQuestions = [
 
   {
     id: 120,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which type of biomass is primarily used for biochar production to amend soil?",
 
@@ -1930,7 +1930,7 @@ const unitQuestions = [
 
   {
     id: 121,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Why is hydrogen hazardous as fuel?",
 
@@ -1946,7 +1946,7 @@ const unitQuestions = [
 
   {
     id: 122,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "\"Green Hydrogen\" is produced by:",
 
@@ -1962,7 +1962,7 @@ const unitQuestions = [
 
   {
     id: 123,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "How is hydrogen stored chemically?",
 
@@ -1978,7 +1978,7 @@ const unitQuestions = [
 
   {
     id: 124,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which option provides the maximum amount of hydrogen gas?",
 
@@ -1994,7 +1994,7 @@ const unitQuestions = [
 
   {
     id: 125,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Tidal power is renewable because…",
 
@@ -2010,7 +2010,7 @@ const unitQuestions = [
 
   {
     id: 126,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Tidal energy is a _____ form of energy.",
 
@@ -2026,7 +2026,7 @@ const unitQuestions = [
 
   {
     id: 127,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Tidal Energy is generated by:",
 
@@ -2042,7 +2042,7 @@ const unitQuestions = [
 
   {
     id: 128,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Ocean Thermal Energy Conversion (OTEC) uses:",
 
@@ -2058,7 +2058,7 @@ const unitQuestions = [
 
   {
     id: 129,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which of the following is NOT a form of Ocean Energy?",
 
@@ -2074,7 +2074,7 @@ const unitQuestions = [
 
   {
     id: 130,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Hydrogen fuel cells are increasingly being used in:",
 
@@ -2090,7 +2090,7 @@ const unitQuestions = [
 
   {
     id: 131,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which mineral is essential for making batteries for Electric Vehicles (EVs)?",
 
@@ -2106,7 +2106,7 @@ const unitQuestions = [
 
   {
     id: 132,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "The main advantage of Renewable Energy sources is:",
 
@@ -2122,7 +2122,7 @@ const unitQuestions = [
 
   {
     id: 133,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "Which isotope of Uranium is commonly used in nuclear reactors?",
 
@@ -2138,7 +2138,7 @@ const unitQuestions = [
 
   {
     id: 134,
-    unit: "Unit 2",
+    unit: "Sustainability and Renewable Resources",
 
     question: "The concept of \"Circular Economy\" promotes:",
 
@@ -2153,12 +2153,12 @@ const unitQuestions = [
   },
 
   // =========================================================
-  // UNIT 3 – ECOSYSTEM AND BIODIVERSITY
+  // Unit 3 – ECOSYSTEM AND BIODIVERSITY
   // =========================================================
 
   {
     id: 135,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Who coined the term \"Ecosystem\" in the year 1935?",
 
@@ -2174,7 +2174,7 @@ const unitQuestions = [
 
   {
     id: 136,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "An ecosystem is defined as:",
 
@@ -2190,7 +2190,7 @@ const unitQuestions = [
 
   {
     id: 137,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following is an \"Abiotic\" component of an ecosystem?",
 
@@ -2206,7 +2206,7 @@ const unitQuestions = [
 
   {
     id: 138,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Energy is returned to the atmosphere in the form of…",
 
@@ -2222,7 +2222,7 @@ const unitQuestions = [
 
   {
     id: 139,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "What happens to the energy that flows through an ecosystem?",
 
@@ -2238,7 +2238,7 @@ const unitQuestions = [
 
   {
     id: 140,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "_____ eat plants and plant products.",
 
@@ -2254,7 +2254,7 @@ const unitQuestions = [
 
   {
     id: 141,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Primary consumers in an ecosystem are always:",
 
@@ -2270,7 +2270,7 @@ const unitQuestions = [
 
   {
     id: 142,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Fungi and bacteria that break down dead organic matter are known as:",
 
@@ -2286,7 +2286,7 @@ const unitQuestions = [
 
   {
     id: 143,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "If an ecosystem has high biodiversity, what can we infer about its ability to recover from disturbances?",
 
@@ -2302,7 +2302,7 @@ const unitQuestions = [
 
   {
     id: 144,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "According to the \"10% Law\" formulated by Raymond Lindeman, how much energy is transferred from one trophic level to the next?",
 
@@ -2318,7 +2318,7 @@ const unitQuestions = [
 
   {
     id: 145,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which type of ecological pyramid is ALWAYS upright?",
 
@@ -2334,7 +2334,7 @@ const unitQuestions = [
 
   {
     id: 146,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "\"Lentic\" ecosystems refer to:",
 
@@ -2350,7 +2350,7 @@ const unitQuestions = [
 
   {
     id: 147,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The sequence of eating and being eaten in an ecosystem is called a:",
 
@@ -2366,7 +2366,7 @@ const unitQuestions = [
 
   {
     id: 148,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "A network of interconnected and overlapping food chains is called a:",
 
@@ -2382,7 +2382,7 @@ const unitQuestions = [
 
   {
     id: 149,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The process of orderly and predictable changes in community structure over time is called:",
 
@@ -2398,7 +2398,7 @@ const unitQuestions = [
 
   {
     id: 150,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The final, stable, and self-perpetuating community in ecological succession is called the:",
 
@@ -2414,7 +2414,7 @@ const unitQuestions = [
 
   {
     id: 151,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Succession that occurs on previously uninhabited and barren land (no soil) is called:",
 
@@ -2430,7 +2430,7 @@ const unitQuestions = [
 
   {
     id: 152,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The death of the last individual of a species is called…",
 
@@ -2446,7 +2446,7 @@ const unitQuestions = [
 
   {
     id: 153,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The three primary levels of biodiversity are:",
 
@@ -2462,7 +2462,7 @@ const unitQuestions = [
 
   {
     id: 154,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of these is an example of species diversity?",
 
@@ -2478,7 +2478,7 @@ const unitQuestions = [
 
   {
     id: 155,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Different varieties of mangoes or rice in India are an example of:",
 
@@ -2494,7 +2494,7 @@ const unitQuestions = [
 
   {
     id: 156,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following best explains the value of biodiversity to the economy?",
 
@@ -2510,7 +2510,7 @@ const unitQuestions = [
 
   {
     id: 157,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "How does climate change threaten biodiversity?",
 
@@ -2526,7 +2526,7 @@ const unitQuestions = [
 
   {
     id: 158,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "What would be the effect of overharvesting a species on its genetic diversity?",
 
@@ -2542,7 +2542,7 @@ const unitQuestions = [
 
   {
     id: 159,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The \"Red Data Book\" which records endangered and threatened species is published by:",
 
@@ -2558,7 +2558,7 @@ const unitQuestions = [
 
   {
     id: 160,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Endemic species are those that are:",
 
@@ -2574,7 +2574,7 @@ const unitQuestions = [
 
   {
     id: 161,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The National Biodiversity Strategy and Action Plan (NBSAP) of India is prepared under which framework?",
 
@@ -2590,7 +2590,7 @@ const unitQuestions = [
 
   {
     id: 162,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "How do Biodiversity Management Committees (BMCs) contribute to local biodiversity assessment?",
 
@@ -2606,7 +2606,7 @@ const unitQuestions = [
 
   {
     id: 163,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following is a biodiversity hotspot in India?",
 
@@ -2622,7 +2622,7 @@ const unitQuestions = [
 
   {
     id: 164,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "How many biodiversity hotspots are present (fully or partially) in India?",
 
@@ -2638,7 +2638,7 @@ const unitQuestions = [
 
   {
     id: 165,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "What does SWOT stand for in SWOT analysis?",
 
@@ -2654,7 +2654,7 @@ const unitQuestions = [
 
   {
     id: 166,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The concept of \"Biodiversity Hotspots\" was first introduced by:",
 
@@ -2670,7 +2670,7 @@ const unitQuestions = [
 
   {
     id: 167,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "In case of habitat loss due to development, how would you prioritize conservation efforts?",
 
@@ -2686,7 +2686,7 @@ const unitQuestions = [
 
   {
     id: 168,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following is an international agreement aimed at the conservation of biodiversity?",
 
@@ -2702,7 +2702,7 @@ const unitQuestions = [
 
   {
     id: 169,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "The conservation of biodiversity within its natural habitat is known as:",
 
@@ -2718,7 +2718,7 @@ const unitQuestions = [
 
   {
     id: 170,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following is an example of In-situ conservation?",
 
@@ -2734,7 +2734,7 @@ const unitQuestions = [
 
   {
     id: 171,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Which of the following is an example of Ex-situ conservation?",
 
@@ -2750,7 +2750,7 @@ const unitQuestions = [
 
   {
     id: 172,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "\"Biosphere Reserves\" are large areas divided into zones. The innermost zone where no human activity is allowed is called the:",
 
@@ -2766,7 +2766,7 @@ const unitQuestions = [
 
   {
     id: 173,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "How would establishing Biosphere Reserves in a region contribute to the local community?",
 
@@ -2782,7 +2782,7 @@ const unitQuestions = [
 
   {
     id: 174,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "\"Sacred Groves\" (Devrai) in India are:",
 
@@ -2798,7 +2798,7 @@ const unitQuestions = [
 
   {
     id: 175,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "\"Project Tiger\" was launched in India in the year:",
 
@@ -2814,7 +2814,7 @@ const unitQuestions = [
 
   {
     id: 176,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "Why is biodiversity conservation important for ecosystem functioning?",
 
@@ -2830,7 +2830,7 @@ const unitQuestions = [
 
   {
     id: 177,
-    unit: "Unit 3",
+    unit: "Ecosystem and Biodiversity",
 
     question: "India is considered a \"Megadiverse\" country. Roughly what percentage of the world's recorded species does India hold?",
 
@@ -2845,12 +2845,12 @@ const unitQuestions = [
   },
 
   // =========================================================
-  // UNIT 4 – ENVIRONMENTAL POLLUTION
+  // Unit 4 – ENVIRONMENTAL POLLUTION
   // =========================================================
 
   {
     id: 178,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "\"Pollution\" is best defined as:",
 
@@ -2866,7 +2866,7 @@ const unitQuestions = [
 
   {
     id: 179,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "A pollutant that is emitted directly from a source into the environment is called a:",
 
@@ -2882,7 +2882,7 @@ const unitQuestions = [
 
   {
     id: 180,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which of the following is a classic example of a Secondary Pollutant?",
 
@@ -2898,7 +2898,7 @@ const unitQuestions = [
 
   {
     id: 181,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The pollutants which occur in nature but become pollutants when their concentration reaches beyond a threshold value are called…",
 
@@ -2914,7 +2914,7 @@ const unitQuestions = [
 
   {
     id: 182,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Land pollution in which land is not suitable for farming due to high salt content is called as…",
 
@@ -2930,7 +2930,7 @@ const unitQuestions = [
 
   {
     id: 183,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The accumulation of soluble salts in the soil, often due to poor irrigation practices in arid regions, is called:",
 
@@ -2946,7 +2946,7 @@ const unitQuestions = [
 
   {
     id: 184,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Overgrazing, deforestation, burning of grassland causes…",
 
@@ -2962,7 +2962,7 @@ const unitQuestions = [
 
   {
     id: 185,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which agricultural practice is a major cause of soil pollution?",
 
@@ -2978,7 +2978,7 @@ const unitQuestions = [
 
   {
     id: 186,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "\"Bioremediation\" is a technique used to clean polluted soil by:",
 
@@ -2994,7 +2994,7 @@ const unitQuestions = [
 
   {
     id: 187,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which practice helps in \"Soil Conservation\" on steep slopes?",
 
@@ -3010,7 +3010,7 @@ const unitQuestions = [
 
   {
     id: 188,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The primary cause of \"Eutrophication\" in lakes and ponds is:",
 
@@ -3026,7 +3026,7 @@ const unitQuestions = [
 
   {
     id: 189,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "A high BOD level in a water sample indicates:",
 
@@ -3042,7 +3042,7 @@ const unitQuestions = [
 
   {
     id: 190,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "If _____ value is high, the water becomes useless for domestic uses also.",
 
@@ -3058,7 +3058,7 @@ const unitQuestions = [
 
   {
     id: 191,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The pH of water should be between…",
 
@@ -3074,7 +3074,7 @@ const unitQuestions = [
 
   {
     id: 192,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Blackfoot disease is caused due to…",
 
@@ -3090,7 +3090,7 @@ const unitQuestions = [
 
   {
     id: 193,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Minamata disease is caused by release of…",
 
@@ -3106,7 +3106,7 @@ const unitQuestions = [
 
   {
     id: 194,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Minamata disease is a _____ caused by methylmercury poisoning.",
 
@@ -3122,7 +3122,7 @@ const unitQuestions = [
 
   {
     id: 195,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The \"Itai-Itai\" disease in Japan was caused by drinking water contaminated with:",
 
@@ -3138,7 +3138,7 @@ const unitQuestions = [
 
   {
     id: 196,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "\"Blue Baby Syndrome\" (Methemoglobinemia) in infants is caused by excessive levels of which chemical in drinking water?",
 
@@ -3154,7 +3154,7 @@ const unitQuestions = [
 
   {
     id: 197,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "High levels of arsenic in drinking water can cause…",
 
@@ -3170,7 +3170,7 @@ const unitQuestions = [
 
   {
     id: 198,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "As per BIS, the acceptable limit of Total Dissolved Solids (TDS) in drinking water is…",
 
@@ -3186,7 +3186,7 @@ const unitQuestions = [
 
   {
     id: 199,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Softening of water is done by removing _____ ions, which cause hardness.",
 
@@ -3202,7 +3202,7 @@ const unitQuestions = [
 
   {
     id: 200,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The consumption of water polluted with lead by humans leads to…",
 
@@ -3218,7 +3218,7 @@ const unitQuestions = [
 
   {
     id: 201,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "In the metro city of Kolkata, the major cause of air pollution is…",
 
@@ -3234,7 +3234,7 @@ const unitQuestions = [
 
   {
     id: 202,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The primary source of artificial air pollution globally is:",
 
@@ -3250,7 +3250,7 @@ const unitQuestions = [
 
   {
     id: 203,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Sulfur Dioxide (SO2) and Nitrogen Oxides (NOx) are the primary gases responsible for:",
 
@@ -3266,7 +3266,7 @@ const unitQuestions = [
 
   {
     id: 204,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Nitrogen Oxides affect human health by…",
 
@@ -3282,7 +3282,7 @@ const unitQuestions = [
 
   {
     id: 205,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Why is PM2.5 considered highly dangerous to human health?",
 
@@ -3298,7 +3298,7 @@ const unitQuestions = [
 
   {
     id: 206,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Addition of contaminants to the atmosphere causing disturbance in natural conditions is…",
 
@@ -3314,7 +3314,7 @@ const unitQuestions = [
 
   {
     id: 207,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "What is an individual level action to prevent air pollution?",
 
@@ -3330,7 +3330,7 @@ const unitQuestions = [
 
   {
     id: 208,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "In which city of India did smog cause travel chaos in January 2025?",
 
@@ -3346,7 +3346,7 @@ const unitQuestions = [
 
   {
     id: 209,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The main objective of Euro and Bharat Stage norms is to…",
 
@@ -3362,7 +3362,7 @@ const unitQuestions = [
 
   {
     id: 210,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "_____ is a type of particulate matter made up of tiny particles of chemicals, soil, smoke, dust, or allergens carried in the air.",
 
@@ -3378,7 +3378,7 @@ const unitQuestions = [
 
   {
     id: 211,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Aeroplanes release tiny solid or liquid particles in the atmosphere which are called…",
 
@@ -3394,7 +3394,7 @@ const unitQuestions = [
 
   {
     id: 212,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "\"Photochemical Smog\" is formed when:",
 
@@ -3410,7 +3410,7 @@ const unitQuestions = [
 
   {
     id: 213,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "A city is experiencing high levels of air pollution due to vehicle emissions. Which measure would be most effective?",
 
@@ -3426,7 +3426,7 @@ const unitQuestions = [
 
   {
     id: 214,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "An \"Electrostatic Precipitator\" (ESP) is commonly used in thermal power plants to:",
 
@@ -3442,7 +3442,7 @@ const unitQuestions = [
 
   {
     id: 215,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "In the Indian AQI scale, an index value between 0–50 is categorized as:",
 
@@ -3458,7 +3458,7 @@ const unitQuestions = [
 
   {
     id: 216,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "High level of unpleasant sound causes…",
 
@@ -3474,7 +3474,7 @@ const unitQuestions = [
 
   {
     id: 217,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Noise pollution is best described as…",
 
@@ -3490,7 +3490,7 @@ const unitQuestions = [
 
   {
     id: 218,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The unit used to measure the intensity (loudness) of sound is:",
 
@@ -3506,7 +3506,7 @@ const unitQuestions = [
 
   {
     id: 219,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Decibel (dB) is the measure of…",
 
@@ -3522,7 +3522,7 @@ const unitQuestions = [
 
   {
     id: 220,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "What is the permissible noise level in residential areas during daytime as per CPCB (India) guidelines?",
 
@@ -3538,7 +3538,7 @@ const unitQuestions = [
 
   {
     id: 221,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The dangerous decibel level of noise…",
 
@@ -3554,7 +3554,7 @@ const unitQuestions = [
 
   {
     id: 222,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "What is the approximate noise level produced by a rocket launch?",
 
@@ -3570,7 +3570,7 @@ const unitQuestions = [
 
   {
     id: 223,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "What defines a \"Silence Zone\" in Indian regulations?",
 
@@ -3586,7 +3586,7 @@ const unitQuestions = [
 
   {
     id: 224,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which initiative has been implemented by MPCB to monitor air pollution?",
 
@@ -3602,7 +3602,7 @@ const unitQuestions = [
 
   {
     id: 225,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which authority is primarily responsible for enforcing environmental laws in India?",
 
@@ -3618,7 +3618,7 @@ const unitQuestions = [
 
   {
     id: 226,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The CPCB was constituted in September 1974 under which Act?",
 
@@ -3634,7 +3634,7 @@ const unitQuestions = [
 
   {
     id: 227,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "A factory must obtain a \"Consent to Establish\" (CTE) and \"Consent to Operate\" (CTO) from which authority before starting operations?",
 
@@ -3650,7 +3650,7 @@ const unitQuestions = [
 
   {
     id: 228,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "The \"Bhopal Gas Tragedy\" (1984) was caused by the leakage of:",
 
@@ -3666,7 +3666,7 @@ const unitQuestions = [
 
   {
     id: 229,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "\"EIA\" stands for:",
 
@@ -3682,7 +3682,7 @@ const unitQuestions = [
 
   {
     id: 230,
-    unit: "Unit 4",
+    unit: "Environmental Pollution",
 
     question: "Which of the following diseases is primarily caused by prolonged exposure to high levels of noise pollution?",
 
@@ -3697,12 +3697,12 @@ const unitQuestions = [
   },
 
   // =========================================================
-  // UNIT 5 – ENVIRONMENTAL LEGISLATION AND SUSTAINABLE PRACTICES
+  // Unit 5 – ENVIRONMENTAL LEGISLATION AND SUSTAINABLE PRACTICES
   // =========================================================
 
   {
     id: 231,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which Article of the Indian Constitution directs the State to protect and improve the environment and safeguard the forests and wildlife of the country?",
 
@@ -3718,7 +3718,7 @@ const unitQuestions = [
 
   {
     id: 232,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which Article of the Indian Constitution makes it a Fundamental Duty of every citizen to protect and improve the natural environment including forests, lakes, rivers, and wildlife?",
 
@@ -3734,7 +3734,7 @@ const unitQuestions = [
 
   {
     id: 233,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Water (Prevention and Control of Pollution) Act was enacted in the year:",
 
@@ -3750,7 +3750,7 @@ const unitQuestions = [
 
   {
     id: 234,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Air (Prevention and Control of Pollution) Act was enacted in the year:",
 
@@ -3766,7 +3766,7 @@ const unitQuestions = [
 
   {
     id: 235,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which major industrial disaster prompted the Indian Government to pass the comprehensive Environment (Protection) Act?",
 
@@ -3782,7 +3782,7 @@ const unitQuestions = [
 
   {
     id: 236,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Environment (Protection) Act, an umbrella legislation for environmental protection in India, was passed in the year:",
 
@@ -3798,7 +3798,7 @@ const unitQuestions = [
 
   {
     id: 237,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Wildlife (Protection) Act was enacted in the year:",
 
@@ -3814,7 +3814,7 @@ const unitQuestions = [
 
   {
     id: 238,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The main objective of the Wildlife Protection Act, 1972 is to:",
 
@@ -3830,7 +3830,7 @@ const unitQuestions = [
 
   {
     id: 239,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Forest (Conservation) Act was enacted in which year to check deforestation?",
 
@@ -3846,7 +3846,7 @@ const unitQuestions = [
 
   {
     id: 240,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The Biological Diversity Act of India was passed in which year?",
 
@@ -3862,7 +3862,7 @@ const unitQuestions = [
 
   {
     id: 241,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What is the primary role of the National Green Tribunal (NGT)?",
 
@@ -3878,7 +3878,7 @@ const unitQuestions = [
 
   {
     id: 242,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The National Green Tribunal (NGT) was established in the year:",
 
@@ -3894,7 +3894,7 @@ const unitQuestions = [
 
   {
     id: 243,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which constitutional article guarantees the \"Right to Life\", which has been interpreted to include the \"Right to a healthy and pollution-free environment\"?",
 
@@ -3910,7 +3910,7 @@ const unitQuestions = [
 
   {
     id: 244,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "The \"Precautionary Principle\" states that:",
 
@@ -3926,7 +3926,7 @@ const unitQuestions = [
 
   {
     id: 245,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Environmental Impact Assessment (EIA) is made mandatory under which act for specific developmental projects?",
 
@@ -3942,7 +3942,7 @@ const unitQuestions = [
 
   {
     id: 246,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "A local community is facing water pollution issues due to industrial waste. Which action would be most effective?",
 
@@ -3958,7 +3958,7 @@ const unitQuestions = [
 
   {
     id: 247,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What role do NGOs play in forest conservation?",
 
@@ -3974,7 +3974,7 @@ const unitQuestions = [
 
   {
     id: 248,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "NGO stands for:",
 
@@ -3990,7 +3990,7 @@ const unitQuestions = [
 
   {
     id: 249,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What is the role of informed citizens in addressing climate change?",
 
@@ -4006,7 +4006,7 @@ const unitQuestions = [
 
   {
     id: 250,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "How do NGOs contribute to biodiversity conservation?",
 
@@ -4022,7 +4022,7 @@ const unitQuestions = [
 
   {
     id: 251,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Mr. Sundarlal Bahuguna headed the popular movement…",
 
@@ -4038,7 +4038,7 @@ const unitQuestions = [
 
   {
     id: 252,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Tarun Bharat Sangh\", led by Rajendra Singh (Waterman of India), works primarily in the field of:",
 
@@ -4054,7 +4054,7 @@ const unitQuestions = [
 
   {
     id: 253,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Narmada Bachao Andolan\" (NBA), led by Medha Patkar, is a social movement protesting against:",
 
@@ -4070,7 +4070,7 @@ const unitQuestions = [
 
   {
     id: 254,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What is the best way to educate school kids about the environment?",
 
@@ -4086,7 +4086,7 @@ const unitQuestions = [
 
   {
     id: 255,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Earth Day\" is celebrated globally on which date?",
 
@@ -4102,7 +4102,7 @@ const unitQuestions = [
 
   {
     id: 256,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "How can public awareness campaigns help address deforestation?",
 
@@ -4118,7 +4118,7 @@ const unitQuestions = [
 
   {
     id: 257,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What type of energy does solar desalination primarily rely on?",
 
@@ -4134,7 +4134,7 @@ const unitQuestions = [
 
   {
     id: 258,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What system helps conserve water in green buildings?",
 
@@ -4150,7 +4150,7 @@ const unitQuestions = [
 
   {
     id: 259,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What is the primary limitation of solar stills in desalination?",
 
@@ -4166,7 +4166,7 @@ const unitQuestions = [
 
   {
     id: 260,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Green Architecture\" aims to:",
 
@@ -4182,7 +4182,7 @@ const unitQuestions = [
 
   {
     id: 261,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What is \"Vertical Farming\"?",
 
@@ -4198,7 +4198,7 @@ const unitQuestions = [
 
   {
     id: 262,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Hydroponics\" is a method of growing plants:",
 
@@ -4214,7 +4214,7 @@ const unitQuestions = [
 
   {
     id: 263,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Compared to traditional soil-based farming, Hydroponics typically:",
 
@@ -4230,7 +4230,7 @@ const unitQuestions = [
 
   {
     id: 264,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Electric Vehicles (EVs) are considered a green technology because:",
 
@@ -4246,7 +4246,7 @@ const unitQuestions = [
 
   {
     id: 265,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "A smart city initiative aims to integrate renewable energy sources efficiently. To achieve this, they should deploy _____, which use IT to optimize electricity distribution.",
 
@@ -4262,7 +4262,7 @@ const unitQuestions = [
 
   {
     id: 266,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Smart grids use IT to optimize the distribution of electricity from _____ sources.",
 
@@ -4278,7 +4278,7 @@ const unitQuestions = [
 
   {
     id: 267,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "GIS stands for:",
 
@@ -4294,7 +4294,7 @@ const unitQuestions = [
 
   {
     id: 268,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which IT-based tool allows real-time monitoring of air and water pollution levels?",
 
@@ -4310,7 +4310,7 @@ const unitQuestions = [
 
   {
     id: 269,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which IT tool is used to integrate spatial data with environmental data for land use and conservation analysis?",
 
@@ -4326,7 +4326,7 @@ const unitQuestions = [
 
   {
     id: 270,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Health Information Systems (HIS) integrate patient records, clinical data, and hospital management using…",
 
@@ -4342,7 +4342,7 @@ const unitQuestions = [
 
   {
     id: 271,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Online mental health platforms provide individuals with access to mental health care, resources, and _____ tools in a confidential and accessible manner.",
 
@@ -4358,7 +4358,7 @@ const unitQuestions = [
 
   {
     id: 272,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "How does IT assist in biodiversity conservation?",
 
@@ -4374,7 +4374,7 @@ const unitQuestions = [
 
   {
     id: 273,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "A company wants to improve its environmental responsibility. What should it do to align with sustainable practices?",
 
@@ -4390,7 +4390,7 @@ const unitQuestions = [
 
   {
     id: 274,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What role can public pressure play in environmental policy-making?",
 
@@ -4406,7 +4406,7 @@ const unitQuestions = [
 
   {
     id: 275,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "CITES (Convention on International Trade in Endangered Species) aims to:",
 
@@ -4422,7 +4422,7 @@ const unitQuestions = [
 
   {
     id: 276,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which international treaty focuses on the conservation of wetlands of international importance?",
 
@@ -4438,7 +4438,7 @@ const unitQuestions = [
 
   {
     id: 277,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "Which of the following best describes the impact of public awareness on energy conservation?",
 
@@ -4454,7 +4454,7 @@ const unitQuestions = [
 
   {
     id: 278,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "What can informed citizens do to influence government policies?",
 
@@ -4470,7 +4470,7 @@ const unitQuestions = [
 
   {
     id: 279,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "How do NGOs contribute to community empowerment for environmental conservation?",
 
@@ -4486,7 +4486,7 @@ const unitQuestions = [
 
   {
     id: 280,
-    unit: "Unit 5",
+    unit: "Enviornmental legislation and sustainable practices",
 
     question: "\"Bioplastics\" used in plant-based packaging are commonly derived from:",
 
